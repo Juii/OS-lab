@@ -1,0 +1,45 @@
+1. 
+2. pwd
+3. tree
+4. bin  - cat, kill, echo, touch 
+   sbin - init, reboot, fdisk
+5. find / -name "guest" 
+	/home/guest
+6. ls -l
+	drwxr-xr-x
+7. su guest
+   mkdir test
+8. ls -l
+   drwxrwxr-x
+9. cp /etc/resolv.conf test
+10.mv test testing
+11.rm -r testing
+12.ls -l
+chmod 775 guest
+13.ls -l 
+chmod 700 /tmp
+14.su root
+
+15. chmod 700 guest (in root)
+16. uname -v 
+    57-Ubuntu SMP
+17. su guest
+18. cd /
+19. ls /home
+    guest
+    juhi
+20. guest
+21. touch sidbi
+22. ls -l
+    -rw-r--r--
+23. ls -li
+    150288
+24. cp sidbi sidbi1
+25. ls li
+    150240
+26. mv sidbi sidbi2
+27. ls -li
+    150288
+28. mv sidbi2 sidbi
+29. su root
+32. 664- change read permission to read and write permission
