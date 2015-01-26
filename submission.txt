@@ -1,0 +1,1201 @@
+1. factor 15
+result:
+15: 3 5
+
+2. !!
+result:
+15: 3 5
+
+3.seq 5
+result:
+1
+2
+3
+4
+5
+
+4.uname -n
+result:
+juhi-Vostro-3446
+
+5. sudo shutdown -r 2
+result:
+system will shutdown in 2 secs
+
+6. diff -q
+result:
+Files submission and submission.txt differ
+
+7.df
+result:
+Filesystem     1K-blocks    Used Available Use% Mounted on
+/dev/sda5       21639732 3495464  17021964  18% /
+none                   4       0         4   0% /sys/fs/cgroup
+udev             1964308       4   1964304   1% /dev
+tmpfs             395020    1192    393828   1% /run
+none                5120       0      5120   0% /run/lock
+none             1975080     156   1974924   1% /run/shm
+none              102400      56    102344   1% /run/user
+
+8. du
+result:
+24	./.compiz/session
+28	./.compiz
+12	./.cache/fontconfig
+8	./.cache/logrotate
+264	./.cache/gstreamer-1.0
+420	./.cache/mozilla/firefox/gso14pd5.default/thumbnails
+12	./.cache/mozilla/firefox/gso14pd5.default/startupCache
+4	./.cache/mozilla/firefox/gso14pd5.default/cache2/doomed
+4	./.cache/mozilla/firefox/gso14pd5.default/cache2/entries
+12	./.cache/mozilla/firefox/gso14pd5.default/cache2
+4092	./.cache/mozilla/firefox/gso14pd5.default/safebrowsing
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/AE
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/80
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/E3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/0B
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/99
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/53
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/72
+352	./.cache/mozilla/firefox/gso14pd5.default/Cache/E
+100	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/2C
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/DE
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/5B
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/28
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/60
+340	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/D0
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/18
+288	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/A7
+228	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/98
+212	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/1F
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/F8
+72	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/3D
+1476	./.cache/mozilla/firefox/gso14pd5.default/Cache/3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/12
+100	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/06
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/93
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/86
+168	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/7F
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/5F
+80	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/2A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/BD
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/61
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/D
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/73
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/F2
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/60
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/82
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/CC
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/64
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/2D
+172	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/56
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/45
+180	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/C9
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/D2
+676	./.cache/mozilla/firefox/gso14pd5.default/Cache/6
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/46
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/E0
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/39
+68	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/3B
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/A7
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/1E
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/DB
+576	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/BD
+224	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/23
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/20
+1208	./.cache/mozilla/firefox/gso14pd5.default/Cache/5
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/6A
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/AC
+192	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/FB
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/E5
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/33
+316	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/BC
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/42
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/59
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/72
+956	./.cache/mozilla/firefox/gso14pd5.default/Cache/0
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/7A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/80
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/5C
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/5F
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/DF
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/4E
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/3C
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/A0
+376	./.cache/mozilla/firefox/gso14pd5.default/Cache/7
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/D1
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/E9
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/99
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/76
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/70
+196	./.cache/mozilla/firefox/gso14pd5.default/Cache/F
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/C/7D
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/C/95
+84	./.cache/mozilla/firefox/gso14pd5.default/Cache/C
+500	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/FB
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/81
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/3F
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/C8
+912	./.cache/mozilla/firefox/gso14pd5.default/Cache/B
+120	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/0A
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/9E
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/DF
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/FC
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/F8
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/2
+348	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/09
+80	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/E1
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/85
+496	./.cache/mozilla/firefox/gso14pd5.default/Cache/4
+536	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/D1
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/83
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/4A
+88	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F6
+244	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F9
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/C3
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F3
+128	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/E8
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/A1
+1912	./.cache/mozilla/firefox/gso14pd5.default/Cache/A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/03
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/0B
+372	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/A9
+524	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/9B
+88	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/24
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/6C
+1392	./.cache/mozilla/firefox/gso14pd5.default/Cache/8
+72	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/34
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/A3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/5D
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/E9
+380	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/06
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/BE
+96	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/CB
+696	./.cache/mozilla/firefox/gso14pd5.default/Cache/9
+228	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/AC
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/48
+76	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/39
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/74
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/52
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/9E
+84	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/D0
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/C7
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/B8
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/A9
+444	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/BC
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/6B
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/70
+1220	./.cache/mozilla/firefox/gso14pd5.default/Cache/1
+25472	./.cache/mozilla/firefox/gso14pd5.default/Cache
+30016	./.cache/mozilla/firefox/gso14pd5.default
+30020	./.cache/mozilla/firefox
+30024	./.cache/mozilla
+768	./.cache/wallpaper
+20	./.cache/ibus/bus
+24	./.cache/ibus
+116	./.cache/compizconfig-1
+4	./.cache/evolution/tasks/trash
+8	./.cache/evolution/tasks
+4	./.cache/evolution/memos/trash
+8	./.cache/evolution/memos
+4	./.cache/evolution/addressbook/trash
+8	./.cache/evolution/addressbook
+4	./.cache/evolution/calendar/trash
+8	./.cache/evolution/calendar
+4	./.cache/evolution/mail/trash
+8	./.cache/evolution/mail
+4	./.cache/evolution/sources/trash
+8	./.cache/evolution/sources
+52	./.cache/evolution
+260	./.cache/upstart
+8	./.cache/update-manager-core
+4	./.cache/unity
+31552	./.cache
+8	./.local/share/applications
+20	./.local/share/unity-webapps
+8	./.local/share/telepathy/mission-control
+12	./.local/share/telepathy
+76	./.local/share/gvfs-metadata
+4	./.local/share/Trash/files/Untitled Folder
+16	./.local/share/Trash/files
+12	./.local/share/Trash/info
+32	./.local/share/Trash
+8	./.local/share/evolution/tasks/system
+4	./.local/share/evolution/tasks/trash
+16	./.local/share/evolution/tasks
+4	./.local/share/evolution/memos/trash
+8	./.local/share/evolution/memos
+4	./.local/share/evolution/addressbook/trash
+8	./.local/share/evolution/addressbook
+8	./.local/share/evolution/calendar/system
+4	./.local/share/evolution/calendar/trash
+16	./.local/share/evolution/calendar
+4	./.local/share/evolution/mail/trash
+8	./.local/share/evolution/mail
+60	./.local/share/evolution
+420	./.local/share/zeitgeist/fts.index
+1648	./.local/share/zeitgeist
+12	./.local/share/keyrings
+4	./.local/share/sounds
+8	./.local/share/icc
+4	./.local/share/unity-settings-daemon
+4	./.local/share/nautilus/scripts
+8	./.local/share/nautilus
+1912	./.local/share
+1916	./.local
+8	./.gconf/apps/gnome-terminal/profiles/Default
+12	./.gconf/apps/gnome-terminal/profiles
+16	./.gconf/apps/gnome-terminal
+8	./.gconf/apps/nm-applet
+28	./.gconf/apps
+32	./.gconf
+4	./Templates
+4	./Music
+4	./.config/enchant
+52	./.config/pulse
+8	./.config/compiz-1/compizconfig
+12	./.config/compiz-1
+4	./.config/libreoffice/4/user/extensions/tmp/extensions
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/tmp/registry
+48	./.config/libreoffice/4/user/extensions/tmp
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/bundled/registry
+48	./.config/libreoffice/4/user/extensions/bundled
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/shared/registry
+48	./.config/libreoffice/4/user/extensions/shared
+152	./.config/libreoffice/4/user/extensions
+8	./.config/libreoffice/4/user/autotext
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/uno_packages/cache/registry
+44	./.config/libreoffice/4/user/uno_packages/cache
+48	./.config/libreoffice/4/user/uno_packages
+12	./.config/libreoffice/4/user/gallery
+4	./.config/libreoffice/4/user/autocorr
+1016	./.config/libreoffice/4/user/database/biblio
+1028	./.config/libreoffice/4/user/database
+36	./.config/libreoffice/4/user/psprint
+16	./.config/libreoffice/4/user/basic/Standard
+28	./.config/libreoffice/4/user/basic
+408	./.config/libreoffice/4/user/config
+1732	./.config/libreoffice/4/user
+1740	./.config/libreoffice/4
+1744	./.config/libreoffice
+12	./.config/gedit
+12	./.config/dconf
+12	./.config/ibus/bus
+16	./.config/ibus
+4	./.config/evolution/sources
+8	./.config/evolution
+8	./.config/update-notifier
+8	./.config/gtk-3.0
+16	./.config/libaccounts-glib
+4	./.config/gnome-session/saved-session
+8	./.config/gnome-session
+4	./.config/upstart
+20	./.config/nautilus
+1936	./.config
+4	./.mozilla/extensions
+8	./.mozilla/firefox/Crash Reports
+4	./.mozilla/firefox/gso14pd5.default/extensions
+12	./.mozilla/firefox/gso14pd5.default/bookmarkbackups
+8	./.mozilla/firefox/gso14pd5.default/webapps
+4	./.mozilla/firefox/gso14pd5.default/crashes/events
+12	./.mozilla/firefox/gso14pd5.default/crashes
+4	./.mozilla/firefox/gso14pd5.default/minidumps
+4	./.mozilla/firefox/gso14pd5.default/healthreport
+16048	./.mozilla/firefox/gso14pd5.default
+16064	./.mozilla/firefox
+16072	./.mozilla
+4	./Documents
+4	./Videos
+4	./Desktop/Untitled Folder
+76	./Desktop
+4	./Downloads
+4	./Pictures
+4	./Public
+51736	.
+
+9. du -k
+result:
+24	./.compiz/session
+28	./.compiz
+12	./.cache/fontconfig
+8	./.cache/logrotate
+264	./.cache/gstreamer-1.0
+420	./.cache/mozilla/firefox/gso14pd5.default/thumbnails
+12	./.cache/mozilla/firefox/gso14pd5.default/startupCache
+4	./.cache/mozilla/firefox/gso14pd5.default/cache2/doomed
+4	./.cache/mozilla/firefox/gso14pd5.default/cache2/entries
+12	./.cache/mozilla/firefox/gso14pd5.default/cache2
+4092	./.cache/mozilla/firefox/gso14pd5.default/safebrowsing
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/AE
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/80
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/E3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/0B
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/99
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/53
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/E/72
+352	./.cache/mozilla/firefox/gso14pd5.default/Cache/E
+100	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/2C
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/DE
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/5B
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/28
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/60
+340	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/D0
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/18
+288	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/A7
+228	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/98
+212	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/1F
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/F8
+72	./.cache/mozilla/firefox/gso14pd5.default/Cache/3/3D
+1476	./.cache/mozilla/firefox/gso14pd5.default/Cache/3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/12
+100	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/06
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/93
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/86
+168	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/7F
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/5F
+80	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/2A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/BD
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/D/61
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/D
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/73
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/F2
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/60
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/82
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/CC
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/64
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/2D
+172	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/56
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/45
+180	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/C9
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/6/D2
+676	./.cache/mozilla/firefox/gso14pd5.default/Cache/6
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/46
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/E0
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/39
+68	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/3B
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/A7
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/1E
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/DB
+576	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/BD
+224	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/23
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/5/20
+1208	./.cache/mozilla/firefox/gso14pd5.default/Cache/5
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/6A
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/AC
+192	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/FB
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/E5
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/33
+316	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/BC
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/42
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/59
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/0/72
+956	./.cache/mozilla/firefox/gso14pd5.default/Cache/0
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/7A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/80
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/5C
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/5F
+60	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/DF
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/4E
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/3C
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/7/A0
+376	./.cache/mozilla/firefox/gso14pd5.default/Cache/7
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/D1
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/E9
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/99
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/76
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/F/70
+196	./.cache/mozilla/firefox/gso14pd5.default/Cache/F
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/C/7D
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/C/95
+84	./.cache/mozilla/firefox/gso14pd5.default/Cache/C
+500	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/FB
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/81
+40	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/3F
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/B/C8
+912	./.cache/mozilla/firefox/gso14pd5.default/Cache/B
+120	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/0A
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/9E
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/DF
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/FC
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/2/F8
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/2
+348	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/09
+80	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/E1
+64	./.cache/mozilla/firefox/gso14pd5.default/Cache/4/85
+496	./.cache/mozilla/firefox/gso14pd5.default/Cache/4
+536	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/D1
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/83
+92	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/4A
+88	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F6
+244	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F9
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/C3
+52	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/F3
+128	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/E8
+612	./.cache/mozilla/firefox/gso14pd5.default/Cache/A/A1
+1912	./.cache/mozilla/firefox/gso14pd5.default/Cache/A
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/03
+344	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/0B
+372	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/A9
+524	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/9B
+88	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/24
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/8/6C
+1392	./.cache/mozilla/firefox/gso14pd5.default/Cache/8
+72	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/34
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/A3
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/5D
+56	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/E9
+380	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/06
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/BE
+96	./.cache/mozilla/firefox/gso14pd5.default/Cache/9/CB
+696	./.cache/mozilla/firefox/gso14pd5.default/Cache/9
+228	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/AC
+48	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/48
+76	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/39
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/74
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/52
+36	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/9E
+84	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/D0
+32	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/C7
+24	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/B8
+112	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/A9
+444	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/BC
+28	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/6B
+44	./.cache/mozilla/firefox/gso14pd5.default/Cache/1/70
+1220	./.cache/mozilla/firefox/gso14pd5.default/Cache/1
+25472	./.cache/mozilla/firefox/gso14pd5.default/Cache
+30016	./.cache/mozilla/firefox/gso14pd5.default
+30020	./.cache/mozilla/firefox
+30024	./.cache/mozilla
+768	./.cache/wallpaper
+20	./.cache/ibus/bus
+24	./.cache/ibus
+116	./.cache/compizconfig-1
+4	./.cache/evolution/tasks/trash
+8	./.cache/evolution/tasks
+4	./.cache/evolution/memos/trash
+8	./.cache/evolution/memos
+4	./.cache/evolution/addressbook/trash
+8	./.cache/evolution/addressbook
+4	./.cache/evolution/calendar/trash
+8	./.cache/evolution/calendar
+4	./.cache/evolution/mail/trash
+8	./.cache/evolution/mail
+4	./.cache/evolution/sources/trash
+8	./.cache/evolution/sources
+52	./.cache/evolution
+260	./.cache/upstart
+8	./.cache/update-manager-core
+4	./.cache/unity
+31552	./.cache
+8	./.local/share/applications
+20	./.local/share/unity-webapps
+8	./.local/share/telepathy/mission-control
+12	./.local/share/telepathy
+76	./.local/share/gvfs-metadata
+4	./.local/share/Trash/files/Untitled Folder
+16	./.local/share/Trash/files
+12	./.local/share/Trash/info
+32	./.local/share/Trash
+8	./.local/share/evolution/tasks/system
+4	./.local/share/evolution/tasks/trash
+16	./.local/share/evolution/tasks
+4	./.local/share/evolution/memos/trash
+8	./.local/share/evolution/memos
+4	./.local/share/evolution/addressbook/trash
+8	./.local/share/evolution/addressbook
+8	./.local/share/evolution/calendar/system
+4	./.local/share/evolution/calendar/trash
+16	./.local/share/evolution/calendar
+4	./.local/share/evolution/mail/trash
+8	./.local/share/evolution/mail
+60	./.local/share/evolution
+428	./.local/share/zeitgeist/fts.index
+1656	./.local/share/zeitgeist
+12	./.local/share/keyrings
+4	./.local/share/sounds
+8	./.local/share/icc
+4	./.local/share/unity-settings-daemon
+4	./.local/share/nautilus/scripts
+8	./.local/share/nautilus
+1920	./.local/share
+1924	./.local
+8	./.gconf/apps/gnome-terminal/profiles/Default
+12	./.gconf/apps/gnome-terminal/profiles
+16	./.gconf/apps/gnome-terminal
+8	./.gconf/apps/nm-applet
+28	./.gconf/apps
+32	./.gconf
+4	./Templates
+4	./Music
+4	./.config/enchant
+52	./.config/pulse
+8	./.config/compiz-1/compizconfig
+12	./.config/compiz-1
+4	./.config/libreoffice/4/user/extensions/tmp/extensions
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/tmp/registry
+48	./.config/libreoffice/4/user/extensions/tmp
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/bundled/registry
+48	./.config/libreoffice/4/user/extensions/bundled
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/shared/registry
+48	./.config/libreoffice/4/user/extensions/shared
+152	./.config/libreoffice/4/user/extensions
+8	./.config/libreoffice/4/user/autotext
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+40	./.config/libreoffice/4/user/uno_packages/cache/registry
+44	./.config/libreoffice/4/user/uno_packages/cache
+48	./.config/libreoffice/4/user/uno_packages
+12	./.config/libreoffice/4/user/gallery
+4	./.config/libreoffice/4/user/autocorr
+1016	./.config/libreoffice/4/user/database/biblio
+1028	./.config/libreoffice/4/user/database
+36	./.config/libreoffice/4/user/psprint
+16	./.config/libreoffice/4/user/basic/Standard
+28	./.config/libreoffice/4/user/basic
+408	./.config/libreoffice/4/user/config
+1732	./.config/libreoffice/4/user
+1740	./.config/libreoffice/4
+1744	./.config/libreoffice
+12	./.config/gedit
+12	./.config/dconf
+12	./.config/ibus/bus
+16	./.config/ibus
+4	./.config/evolution/sources
+8	./.config/evolution
+8	./.config/update-notifier
+8	./.config/gtk-3.0
+16	./.config/libaccounts-glib
+4	./.config/gnome-session/saved-session
+8	./.config/gnome-session
+4	./.config/upstart
+20	./.config/nautilus
+1936	./.config
+4	./.mozilla/extensions
+8	./.mozilla/firefox/Crash Reports
+4	./.mozilla/firefox/gso14pd5.default/extensions
+12	./.mozilla/firefox/gso14pd5.default/bookmarkbackups
+8	./.mozilla/firefox/gso14pd5.default/webapps
+4	./.mozilla/firefox/gso14pd5.default/crashes/events
+12	./.mozilla/firefox/gso14pd5.default/crashes
+4	./.mozilla/firefox/gso14pd5.default/minidumps
+4	./.mozilla/firefox/gso14pd5.default/healthreport
+16048	./.mozilla/firefox/gso14pd5.default
+16064	./.mozilla/firefox
+16072	./.mozilla
+4	./Documents
+4	./Videos
+4	./Desktop/Untitled Folder
+76	./Desktop
+4	./Downloads
+4	./Pictures
+4	./Public
+51772	.
+
+10. tty
+result:
+/dev/pts/1
+
+11. who
+result: 
+guest    :0           2015-01-25 11:31 (:0)
+guest    pts/1        2015-01-25 11:32 (:0)
+
+12. who -H
+result:
+NAME     LINE         TIME             COMMENT
+guest    :0           2015-01-25 11:31 (:0)
+guest    pts/1        2015-01-25 11:32 (:0)
+
+13. spell
+result: 
+mtop
+min
+mtotal
+mrunning
+msleeping
+mstopped
+mzombie
+Cpu
+mus
+msy
+
+14. aspell
+result:
+Usage: aspell [options] <command>
+<command> is one of:
+  -?|usage         display a brief usage message
+  help             display a detailed help message
+  -c|check <file>  to check a file
+  -a|pipe          "ispell -a" compatibility mode
+  [dump] config    dumps the current configuration to stdout
+  config <key>     prints the current value of an option
+  [dump] dicts | filters | modes
+    lists available dictionaries / filters / filter modes
+[options] is any of the following:
+  --encoding=<str>            encoding to expect data to be in
+  --mode=<str>                filter mode
+  -l,--lang=<str>             language code
+  -d,--master=<str>           base name of the main dictionary to use
+  --sug-mode=<str>            suggestion mode
+
+15.fsck
+result:
+repairs file system
+
+16.znew
+result:
+compress .z file into .gz file
+
+17. whereis
+result:
+submission:
+
+18 iw
+result:
+
+Usage:	iw [options] command
+Options:
+	--debug		enable netlink debugging
+	--version	show version (3.4)
+Commands:
+	help [command]
+	event [-t] [-r] [-f]
+	phy
+	list
+	phy <phyname> info
+	dev
+	dev <devname> info
+	dev <devname> del
+	dev <devname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	phy <phyname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	dev <devname> ibss join <SSID> <freq in MHz> [HT20|HT40+|HT40-|NOHT] [fixed-freq] [<fixed bssid>] [beacon-interval <TU>] [basic-rates <rate in Mbps,rate2,...>] [mcast-rate <rate in Mbps>] [key d:0:abcde]
+	dev <devname> ibss leave
+	dev <devname> station dump
+	dev <devname> station set <MAC address> vlan <ifindex>
+	dev <devname> station set <MAC address> plink_action <open|block>
+	dev <devname> station del <MAC address>
+	dev <devname> station get <MAC address>
+	dev <devname> survey dump
+	dev <devname> mesh leave
+	dev <devname> mesh join <mesh ID> [mcast-rate <rate in Mbps>] [<param>=<value>]*
+	dev <devname> mpath dump
+	dev <devname> mpath set <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath new <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath del <MAC address>
+	dev <devname> mpath get <MAC address>
+	dev <devname> scan [-u] [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan trigger [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan dump [-u]
+	reg get
+	reg set <ISO/IEC 3166-1 alpha2>
+	dev <devname> connect [-w] <SSID> [<freq in MHz>] [<bssid>] [key 0:abcde d:1:6162636465]
+	dev <devname> disconnect
+	dev <devname> link
+	dev <devname> offchannel <freq> <duration>
+	dev <devname> cqm rssi <threshold|off> [<hysteresis>]
+	phy <phyname> wowlan show 
+	phy <phyname> wowlan disable 
+	phy <phyname> wowlan enable [any] [disconnect] [magic-packet] [gtk-rekey-failure] [eap-identity-request] [4way-handshake] [rfkill-release] [patterns <pattern>*]
+	dev <devname> roc start <freq> <time>
+	phy <phyname> set antenna <bitmap> | all | <tx bitmap> <rx bitmap>
+	dev <devname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set distance <distance>
+	phy <phyname> set coverage <coverage class>
+	phy <phyname> set netns <pid>
+	phy <phyname> set rts <rts threshold|off>
+	phy <phyname> set frag <fragmentation threshold|off>
+	dev <devname> set channel <channel> [HT20|HT40+|HT40-]
+	phy <phyname> set channel <channel> [HT20|HT40+|HT40-]
+	dev <devname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set name <new name>
+	dev <devname> set peer <MAC address>
+	dev <devname> set noack_map <map>
+	dev <devname> set 4addr <on|off>
+	dev <devname> set type <type>
+	dev <devname> set meshid <meshid>
+	dev <devname> set monitor <flag>*
+	dev <devname> set mesh_param <param>=<value> [<param>=<value>]*
+	dev <devname> set power_save <on|off>
+	dev <devname> set bitrates [legacy-<2.4|5> <legacy rate in Mbps>*] [mcs-<2.4|5> <MCS index>*]
+	dev <devname> get mesh_param [<param>]
+	dev <devname> get power_save <param>
+
+You can omit the 'phy' or 'dev' if the identification is unique,
+e.g. "iw wlan0 info" or "iw phy0 info". (Don't when scripting.)
+
+Do NOT screenscrape this tool, we don't consider its output stable.
+
+19. rev file1
+result:
+ a s d c f a
+
+20. enable
+result:
+enable .
+enable :
+enable [
+enable alias
+enable bg
+enable bind
+enable break
+enable builtin
+enable caller
+enable cd
+enable command
+enable compgen
+enable complete
+enable compopt
+enable continue
+enable declare
+enable dirs
+enable disown
+enable echo
+enable enable
+enable eval
+enable exec
+enable exit
+enable export
+enable false
+enable fc
+enable fg
+enable getopts
+enable hash
+enable help
+enable history
+enable jobs
+enable kill
+enable let
+enable local
+enable logout
+enable mapfile
+enable popd
+enable printf
+enable pushd
+enable pwd
+enable read
+enable readarray
+enable readonly
+enable return
+enable set
+enable shift
+enable shopt
+enable source
+enable suspend
+enable test
+enable times
+enable trap
+enable true
+enable type
+enable typeset
+enable ulimit
+enable umask
+enable unalias
+enable unset
+enable wait
+
+21. last
+result:
+guest    pts/1        :0               Sun Jan 25 11:32   still logged in   
+guest    :0           :0               Sun Jan 25 11:31   still logged in   
+reboot   system boot  3.13.0-32-generi Sun Jan 25 11:31 - 12:03  (00:32)    
+guest    :0           :0               Sun Jan 25 11:11 - crash  (00:20)    
+reboot   system boot  3.13.0-32-generi Sun Jan 25 11:11 - 12:03  (00:52)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 22:27 - 22:27  (00:00)    
+guest    :0           :0               Fri Jan 23 17:28 - crash  (04:58)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 17:28 - 22:27  (04:59)    
+guest    pts/0        :1               Fri Jan 23 16:12 - crash  (01:15)    
+guest    :1           :1               Fri Jan 23 16:11 - crash  (01:17)    
+user     :0           :0               Fri Jan 23 16:10 - crash  (01:17)    
+guest    :0           :0               Fri Jan 23 16:10 - 16:10  (00:00)    
+guest    pts/0        :0               Fri Jan 23 16:05 - 16:10  (00:04)    
+guest    pts/0        :0               Fri Jan 23 16:05 - 16:05  (00:00)    
+guest    pts/0        :0               Fri Jan 23 16:02 - 16:03  (00:00)    
+guest    pts/0        :0               Fri Jan 23 15:57 - 16:02  (00:05)    
+guest    :0           :0               Fri Jan 23 15:54 - 16:10  (00:15)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 15:54 - 22:27  (06:32)    
+guest    pts/0        :0               Fri Jan 23 15:52 - 15:54  (00:02)    
+guest    pts/6        :0               Fri Jan 23 15:50 - 15:51  (00:01)    
+guest    :0           :0               Fri Jan 23 15:50 - down   (00:04)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 15:48 - 15:54  (00:05)    
+guest    pts/0        :0               Fri Jan 23 15:45 - 15:47  (00:02)    
+guest-Jc :1           :1               Fri Jan 23 15:44 - down   (00:03)    
+guest    :0           :0               Fri Jan 23 15:43 - down   (00:03)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 07:43 - 15:47  (08:04)    
+juhi     tty1                          Fri Jan 23 07:41 - down   (00:01)    
+juhi     pts/11       :0               Fri Jan 23 07:07 - 07:07  (00:00)    
+juhi     pts/0        :0               Fri Jan 23 07:01 - down   (00:40)    
+juhi     pts/0        :0               Fri Jan 23 06:15 - 07:01  (00:46)    
+juhi     pts/0        :0               Fri Jan 23 06:00 - 06:00  (00:00)    
+juhi     :0           :0               Fri Jan 23 05:58 - down   (01:44)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 05:57 - 07:42  (01:44)    
+juhi     :0           :0               Tue Jan 20 13:55 - down   (00:01)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 13:55 - 13:57  (00:01)    
+juhi     :0           :0               Tue Jan 20 08:23 - crash  (05:32)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 08:22 - 13:57  (05:34)    
+juhi     pts/12       :0               Tue Jan 20 04:30 - 04:30  (00:00)    
+juhi     pts/0        :0               Tue Jan 20 03:59 - 05:15  (01:15)    
+juhi     :0           :0               Tue Jan 20 03:58 - down   (01:17)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 03:57 - 05:15  (01:17)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 03:41 - 03:42  (00:00)    
+juhi     pts/0        :0               Mon Jan 19 02:44 - down   (00:56)    
+juhi     :0           :0               Mon Jan 19 02:40 - down   (01:00)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 02:40 - 03:41  (01:00)    
+juhi     :0           :0               Fri Jan 16 08:58 - down   (00:00)    
+reboot   system boot  3.13.0-32-generi Fri Jan 16 08:57 - 08:58  (00:00)    
+juhi     pts/0        :0               Fri Jan 16 08:18 - 08:53  (00:34)    
+juhi     pts/12       :0               Fri Jan 16 08:12 - 08:18  (00:06)    
+juhi     :0           :0               Fri Jan 16 08:11 - down   (00:41)    
+reboot   system boot  3.13.0-32-generi Fri Jan 16 08:11 - 08:53  (00:41)    
+juhi     pts/5        :0               Fri Jan 16 08:08 - 08:08  (00:00)    
+juhi     :0           :0               Fri Jan 16 08:07 - down   (00:01)    
+reboot   system boot  3.13.0-32-generi Fri Jan 16 08:07 - 08:08  (00:01)    
+
+wtmp begins Fri Jan 16 08:07:29 2015
+
+22. sort file1
+result:
+a f c d s a 
+
+23. unexpand file1
+result:
+a f c d s a 
+
+24. ifconfig
+result:
+eth0      Link encap:Ethernet  HWaddr b8:2a:72:ac:38:3e  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:549 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:549 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:42577 (42.5 KB)  TX bytes:42577 (42.5 KB)
+
+25. ps 
+result:
+  PID TTY          TIME CMD
+ 2257 pts/1    00:00:00 bash
+ 2735 pts/1    00:00:00 vi
+ 3193 pts/1    00:00:00 man
+ 3204 pts/1    00:00:00 pager
+ 3210 pts/1    00:00:00 ps
+
+26. who -b
+result:
+         system boot  2015-01-25 11:31
+
+27. uname -a
+result:
+Linux juhi-Vostro-3446 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+
+28. free
+result:
+             total       used       free     shared    buffers     cached
+Mem:       3950164    1549812    2400352     202580     137080     849588
+-/+ buffers/cache:     563144    3387020
+Swap:      4093948          0    4093948
+
+29. init
+result:
+
+30. sdiff file1 file2
+result:
+15: 3 5							      |	a f c d s a 
+
+31. dmesg
+result:
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.13.0-32-generic (buildd@kissel) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014 (Ubuntu 3.13.0-32.57-generic 3.13.11.4)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.13.0-32-generic root=UUID=dda95b59-3759-4e52-a243-24046a078130 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009d7ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009d800-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000bae04fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bae05000-0x00000000bae0bfff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000bae0c000-0x00000000bb234fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bb235000-0x00000000bb830fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bb831000-0x00000000ca862fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000ca863000-0x00000000cabadfff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000cabae000-0x00000000cabcbfff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000cabcc000-0x00000000cb571fff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000cb572000-0x00000000cbffefff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000cbfff000-0x00000000cbffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000cd000000-0x00000000cf1fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed03fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000012fdfffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.8 present.
+[    0.000000] DMI: Dell Inc. Vostro 3446/06XK30, BIOS A01 03/28/2014
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] No AGP bridge found
+[    0.000000] e820: last_pfn = 0x12fe00 max_arch_pfn = 0x400000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR fixed ranges enabled:
+[    0.000000]   00000-9FFFF write-back
+[    0.000000]   A0000-BFFFF uncachable
+[    0.000000]   C0000-CFFFF write-protect
+[    0.000000]   D0000-E7FFF uncachable
+[    0.000000]   E8000-FFFFF write-protect
+[    0.000000] MTRR variable ranges enabled:
+[    0.000000]   0 base 0000000000 mask 7F00000000 write-back
+[    0.000000]   1 base 0100000000 mask 7FE0000000 write-back
+[    0.000000]   2 base 0120000000 mask 7FF0000000 write-back
+[    0.000000]   3 base 00E0000000 mask 7FE0000000 uncachable
+[    0.000000]   4 base 00D0000000 mask 7FF0000000 uncachable
+[    0.000000]   5 base 00CE000000 mask 7FFE000000 uncachable
+[    0.000000]   6 base 00CD000000 mask 7FFF000000 uncachable
+[    0.000000]   7 base 012FE00000 mask 7FFFE00000 uncachable
+[    0.000000]   8 disabled
+[    0.000000]   9 disabled
+[    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+[    0.000000] original variable MTRRs
+[    0.000000] reg 0, base: 0GB, range: 4GB, type WB
+[    0.000000] reg 1, base: 4GB, range: 512MB, type WB
+[    0.000000] reg 2, base: 4608MB, range: 256MB, type WB
+[    0.000000] reg 3, base: 3584MB, range: 512MB, type UC
+[    0.000000] reg 4, base: 3328MB, range: 256MB, type UC
+[    0.000000] reg 5, base: 3296MB, range: 32MB, type UC
+[    0.000000] reg 6, base: 3280MB, range: 16MB, type UC
+[    0.000000] reg 7, base: 4862MB, range: 2MB, type UC
+[    0.000000] total RAM covered: 4046M
+[    0.000000] Found optimal setting for mtrr clean up
+[    0.000000]  gran_size: 64K 	chunk_size: 4M 	num_reg: 8  	lose cover RAM: 0G
+[    0.000000] New variable MTRRs
+[    0.000000] reg 0, base: 0GB, range: 2GB, type WB
+[    0.000000] reg 1, base: 2GB, range: 1GB, type WB
+[    0.000000] reg 2, base: 3GB, range: 128MB, type WB
+[    0.000000] reg 3, base: 3200MB, range: 64MB, type WB
+[    0.000000] reg 4, base: 3264MB, range: 16MB, type WB
+[    0.000000] reg 5, base: 4GB, range: 512MB, type WB
+[    0.000000] reg 6, base: 4608MB, range: 256MB, type WB
+[    0.000000] reg 7, base: 4862MB, range: 2MB, type UC
+[    0.000000] e820: update [mem 0xcd000000-0xffffffff] usable ==> reserved
+[    0.000000] e820: last_pfn = 0xcc000 max_arch_pfn = 0x400000000
+[    0.000000] found SMP MP-table at [mem 0x000fdb00-0x000fdb0f] mapped at [ffff8800000fdb00]
+[    0.000000] Scanning 1 areas for low memory corruption
+[    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+[    0.000000] Using GB pages for direct mapping
+[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+[    0.000000] BRK [0x01fdf000, 0x01fdffff] PGTABLE
+[    0.000000] BRK [0x01fe0000, 0x01fe0fff] PGTABLE
+[    0.000000] BRK [0x01fe1000, 0x01fe1fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x12fc00000-0x12fdfffff]
+[    0.000000]  [mem 0x12fc00000-0x12fdfffff] page 2M
+[    0.000000] BRK [0x01fe2000, 0x01fe2fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x12c000000-0x12fbfffff]
+[    0.000000]  [mem 0x12c000000-0x12fbfffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x100000000-0x12bffffff]
+[    0.000000]  [mem 0x100000000-0x12bffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x00100000-0xbae04fff]
+[    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+[    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+[    0.000000]  [mem 0x40000000-0x7fffffff] page 1G
+[    0.000000]  [mem 0x80000000-0xbadfffff] page 2M
+[    0.000000]  [mem 0xbae00000-0xbae04fff] page 4k
+[    0.000000] init_memory_mapping: [mem 0xbae0c000-0xbb234fff]
+[    0.000000]  [mem 0xbae0c000-0xbaffffff] page 4k
+[    0.000000]  [mem 0xbb000000-0xbb1fffff] page 2M
+[    0.000000]  [mem 0xbb200000-0xbb234fff] page 4k
+[    0.000000] BRK [0x01fe3000, 0x01fe3fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0xbb831000-0xca862fff]
+[    0.000000]  [mem 0xbb831000-0xbb9fffff] page 4k
+[    0.000000]  [mem 0xbba00000-0xca7fffff] page 2M
+[    0.000000]  [mem 0xca800000-0xca862fff] page 4k
+[    0.000000] BRK [0x01fe4000, 0x01fe4fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0xcbfff000-0xcbffffff]
+[    0.000000]  [mem 0xcbfff000-0xcbffffff] page 4k
+[    0.000000] RAMDISK: [mem 0x35b6a000-0x36dacfff]
+[    0.000000] ACPI: RSDP 00000000000f0490 000024 (v02   DELL)
+[    0.000000] ACPI: XSDT 00000000cabb4090 00009C (v01 DELL    WN09    01072009 AMI  00010013)
+[    0.000000] ACPI: FACP 00000000cabc46f0 00010C (v05   DELL     WN09 01072009 AMI  00010013)
+[    0.000000] ACPI Error: Gpe0Block - 32-bit FADT register is too long (32 bytes, 256 bits) to convert to GAS struct - 255 bits max, truncating (20131115/tbfadt-202)
+[    0.000000] ACPI: DSDT 00000000cabb41b8 010532 (v02   DELL     WN09 00000000 INTL 20120711)
+[    0.000000] ACPI: FACS 00000000cb56ef80 000040
+[    0.000000] ACPI: APIC 00000000cabc4800 000072 (v03   DELL     WN09 01072009 AMI  00010013)
+[    0.000000] ACPI: FPDT 00000000cabc4878 000044 (v01   DELL     WN09 01072009 AMI  00010013)
+[    0.000000] ACPI: ASF! 00000000cabc48c0 0000A5 (v32 INTEL       HCG 00000001 TFSM 000F4240)
+[    0.000000] ACPI: LPIT 00000000cabc4968 000094 (v01 ALASKA          00000000 AMI. 00000005)
+[    0.000000] ACPI: SSDT 00000000cabc4a00 000228 (v01  INTEL sensrhub 00000000 INTL 20120711)
+[    0.000000] ACPI: SSDT 00000000cabc4c28 0004B5 (v01  PmRef  Cpu0Ist 00003000 INTL 20120711)
+[    0.000000] ACPI: SSDT 00000000cabc50e0 000AD8 (v01  PmRef    CpuPm 00003000 INTL 20120711)
+[    0.000000] ACPI: MCFG 00000000cabc5bb8 00003C (v01   DELL     WN09 01072009 MSFT 00000097)
+[    0.000000] ACPI: HPET 00000000cabc5bf8 000038 (v01   DELL     WN09 01072009 AMI. 00000005)
+[    0.000000] ACPI: SSDT 00000000cabc5c30 000315 (v01 SataRe SataTabl 00001000 INTL 20120711)
+[    0.000000] ACPI: SSDT 00000000cabc5f48 0035A5 (v01 SaSsdt  SaSsdt  00003000 INTL 20091112)
+[    0.000000] ACPI: SSDT 00000000cabc94f0 000972 (v01  SgRef    SgPch 00001000 INTL 20120711)
+[    0.000000] ACPI: SSDT 00000000cabc9e68 00194E (v01 OptRef  OptTabl 00001000 INTL 20120711)
+[    0.000000] ACPI: CSRT 00000000cabcb7b8 0000C4 (v01   INTL HSWULT-R 00000001 INTL 20100528)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000012fdfffff]
+[    0.000000] Initmem setup node 0 [mem 0x00000000-0x12fdfffff]
+[    0.000000]   NODE_DATA [mem 0x12fdf6000-0x12fdfafff]
+[    0.000000]  [ffffea0000000000-ffffea0004bfffff] PMD -> [ffff88012b400000-ffff88012f3fffff] on node 0
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+[    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+[    0.000000]   Normal   [mem 0x100000000-0x12fdfffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009cfff]
+[    0.000000]   node   0: [mem 0x00100000-0xbae04fff]
+[    0.000000]   node   0: [mem 0xbae0c000-0xbb234fff]
+[    0.000000]   node   0: [mem 0xbb831000-0xca862fff]
+[    0.000000]   node   0: [mem 0xcbfff000-0xcbffffff]
+[    0.000000]   node   0: [mem 0x100000000-0x12fdfffff]
+[    0.000000] On node 0 totalpages: 1023997
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 21 pages reserved
+[    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 12874 pages used for memmap
+[    0.000000]   DMA32 zone: 823905 pages, LIFO batch:31
+[    0.000000]   Normal zone: 3064 pages used for memmap
+[    0.000000]   Normal zone: 196096 pages, LIFO batch:31
+[    0.000000] ACPI: PM-Timer IO Port: 0x1808
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x04] lapic_id[0x03] enabled)
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.000000] ACPI: IOAPIC (id[0x08] address[0xfec00000] gsi_base[0])
+[    0.000000] IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-39
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ2 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.000000] nr_irqs_gsi: 56
+[  295.177088] usb 1-1.2: new high-speed USB device number 6 using ehci-pci
+[  295.271751] usb 1-1.2: New USB device found, idVendor=04e8, idProduct=6860
+[  295.271761] usb 1-1.2: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[  295.271765] usb 1-1.2: Product: GT-N7100
+[  295.271769] usb 1-1.2: Manufacturer: samsung
+[  295.271773] usb 1-1.2: SerialNumber: 4df1535e04649f6f
+[  298.411067] usb 1-1.2: USB disconnect, device number 6
+[  298.642402] usb 1-1.2: new high-speed USB device number 7 using ehci-pci
+[  298.736451] usb 1-1.2: New USB device found, idVendor=04e8, idProduct=6860
+[  298.736460] usb 1-1.2: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+[  298.736465] usb 1-1.2: Product: GT-N7100
+[  298.736469] usb 1-1.2: Manufacturer: samsung
+[  298.736473] usb 1-1.2: SerialNumber: 4df1535e04649f6f
+[  299.551019] systemd-hostnamed[2531]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+[ 1882.474420] systemd-hostnamed[2856]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+[ 2163.899020] type=1400 audit(1422167835.493:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=3075 comm="apparmor_parser"
+[ 2163.899026] type=1400 audit(1422167835.493:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=3075 comm="apparmor_parser"
+[ 2163.899362] type=1400 audit(1422167835.493:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=3075 comm="apparmor_parser"
+
+32. free -m
+result:
+             total       used       free     shared    buffers     cached
+Mem:          3857       1620       2237        199        137        918
+-/+ buffers/cache:        564       3293
+Swap:         3997          0       3997
+
+33. head file1 tail file2
+result:
+==> Desktop/juhi.txt <==
+a f c d s a 
+
+==> Desktop/append <==
+15: 3 5
+
+34. jobs
+result:
+[1]   Stopped                 vi
+[2]   Stopped                 man ps
+[3]   Stopped                 man who -b
+[4]   Stopped                 man uname -a
+[5]   Stopped                 man free
+[6]   Stopped                 man init
+[7]   Stopped                 man sdiff
+[8]   Stopped                 man watch
+[9]   Stopped                 top
+[10]   Stopped                 man top
+[11]   Stopped                 top
+[12]   Stopped                 top >> submission.txt
+[13]   Stopped                 man free -m
+[14]-  Stopped                 man head
+[15]+  Stopped                 man tail
+
+35. 
