@@ -78,4 +78,4 @@ ANSWER:
 Using pure user-level or kernel-level threads leads to inefficient system. Both have their own disadvantages. When ULT executes a system call, not only one thread is blocked, but all of the threads within the process are blocked. 
 When kernel executes system call, transfer of control from one thread to another within same process requires a mode switch to kernel. 
 So combined approach having m user-level threads and n kernel-level threads can give better system. 
-According to me the most common implementation is 1-to-1 mapping where each user-level thread has a corresponding thread that is scheduled by the kernel.  
+According to me the most common implementation is 1-to-1 mapping where each user-level thread has a corresponding thread that is scheduled by the kernel. Hence m (approx) = n.
